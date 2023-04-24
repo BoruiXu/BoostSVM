@@ -16,7 +16,7 @@ git clone https://github.com/BoruiXu/BoostSVM.git
 
 ```
 
-build on Linux
+Build on Linux.
 ```bash
 cd BoostSVM
 mkdir build
@@ -25,9 +25,16 @@ cmake ..
 make -j
 ```
 
-### Usage
+### Usage example
 ```bash
 ./bin/thundersvm-train -c 100 -g 0.5 dataset_path
 ```
 
+### Datasets
+All test datasts can be downloaded through the script in dataset floader.
+``` bash
+sh ./dataset/get_datasets.sh
+```
 
+### Parameter
+The meaning of parameters is the same as that in ThunderSVM.
