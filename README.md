@@ -3,7 +3,7 @@
 ## Overview
 BoostSVM is a tool for efficient training of SVM on GPUs, which optimizes the kernel matrix computation. It is an optimization of ThunderSVM.
 
-##Prerequisites
+## Prerequisites
 * cmake 2.8 or above
 * gcc 4.8 or above for Linux
 * CUDA 11.0+
