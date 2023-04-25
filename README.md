@@ -36,5 +36,12 @@ All test datasts can be downloaded through the script in dataset floader.
 sh ./dataset/get_datasets.sh
 ```
 
-### Parameter
+### Parameter and Test
 The meaning of parameters is the same as that in ThunderSVM.
+We provide a bash script (train\_run.sh) to train datasets mentioned in our paper.
+Befor running this script, please copy this script into the _build_ floder. And we use different number standing for different datasets. For example, if you want to test the real-sim dataset. Please run:
+```bash
+sh train_run.sh 1
+```
+NOTED: all datasets need to be stored in the _dataset_ folder! 
+
